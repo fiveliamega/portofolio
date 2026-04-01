@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fivelia Mega - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f9f7f7, #e3f0ff);
+      color: #333;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 100px 20px 60px;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #5a6cea;
+      animation: bubble 2s ease infinite alternate;
+    }
+
+    @keyframes bubble {
+      0% {
+        transform: translateY(0);
+        text-shadow: 0 0 10px rgba(90, 108, 234, 0.4);
+      }
+      100% {
+        transform: translateY(-10px);
+        text-shadow: 0 0 25px rgba(90, 108, 234, 0.6);
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: white;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    h2 {
+      color: #5a6cea;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.3rem;
+      }
+      .card {
+        margin: 30px 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fivelia Mega</h1>
+    <p>Creative Front-End Developer & UI Designer</p>
+  </header>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Fivelia Mega, a passionate web developer who loves designing clean,
+      modern, and user-friendly websites. I enjoy transforming creative ideas into
+      digital experiences.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Projects</h2>
+    <p>
+      ✨ Portfolio Website<br />
+      💻 Interactive Resume<br />
+      🎨 UI Design Showcase
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p>📧 Email: fiveliamega@gmail.com</p>
+    <p>📱 Instagram: @fiveliamega</p>
+  </section>
+
+  <footer>
+    © 2025 Fivelia Mega | All Rights Reserved
+  </footer>
+</body>
+</html>
